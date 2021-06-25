@@ -3,4 +3,4 @@ git-practicing
 
 A bit about myself.
 
-Mot nguoi nao do.
+Mot hai ba
