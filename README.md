@@ -2,4 +2,5 @@
 git-practicing
 
 A bit about myself.
-dung commit vao day.
+
+Mot nguoi dung nao do dung commit vao day.
