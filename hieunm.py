@@ -9,7 +9,7 @@ def histogram():
     c = 0
     d = 0
     e = 0
-    with open("hello-world\SAMPLE_DATA_01.csv", "r", encoding="utf_8") as file:
+    with open("SAMPLE_DATA_01.csv", "r", encoding="utf_8") as file:
         csv_reader = csv.DictReader(file)
         for row in csv_reader:
             point = float(row['MAS291'])
