@@ -1,5 +1,5 @@
-(1) Set-up
-  **- Đăng nhập Git bằng mail FPT để trở thành collaborator của project.**
+**- Đăng nhập Git bằng mail FPT để trở thành collaborator của project.**
+(1) Set-up  
   - Tại git bash, cd 1 thư mục trống
   - Chạy lệnh 
       git clone https://github.com/hunglthe150135/hello-world.git
