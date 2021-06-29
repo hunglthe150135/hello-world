@@ -1,6 +1,10 @@
 import csv
+<<<<<<< HEAD
 import pandas as pd
 from matplotlib import pyplot as plt
+=======
+import matplotlib.pyplot as plt
+>>>>>>> b812806287b049e822d8797f25e3930ff03a96dd
 class input:
   def __init__(self):
       self.data = {
@@ -11,11 +15,12 @@ class input:
       with open("SAMPLE_DATA_01.csv", "r", encoding="utf_8") as file:
           csv_reader = csv.DictReader(file)
           for row in csv_reader:
-              self.data['id'].append(row['ID'])
-              self.data['mas291'].append(float(row['MAS291']))
+               self.data['id'].append(row['ID'])
+               self.data['mas291'].append(float(row['MAS291']))
 
 input_sample_data_01 = input()
 print(input_sample_data_01.data)
+<<<<<<< HEAD
 
 
 
@@ -43,3 +48,12 @@ plt.ylabel('Total student')
 plt.tight_layout()
 
 plt.show()
+=======
+x = input_sample_data_01.data['id']
+y = input_sample_data_01.data['mas291']
+plt.hist(y,bins = 5)
+plt.title('bài ca fuckboy')
+plt.ylabel('frequency')
+plt.xlabel('Score')
+plt.show()
+>>>>>>> b812806287b049e822d8797f25e3930ff03a96dd
