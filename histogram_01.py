@@ -22,7 +22,7 @@ print(input_sample_data_01.data)
 
 plt.style.use('fivethirtyeight')
 
-data = pd.read_csv('data.csv')
+data = pd.read_csv('data.SAMPLE_DATA_01')
 ids = data['ID']
 grades = data['Grade']
 
