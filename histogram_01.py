@@ -65,6 +65,7 @@ plt.pie(k,labels=mylabels,startangle=90)
 plt.show()
 
 reports=[]
+
 with open('SAMPLE_DATA_01.csv') as csv_file:
     csv_reader = csv.DictReader(csv_file)
     for row in csv_reader:
@@ -72,6 +73,8 @@ with open('SAMPLE_DATA_01.csv') as csv_file:
         mark = row['MAS291']
         reports.append({'masv': masv,
                         'mark': mark})
+
+#Draw by counter marks
 
 distributions = [float(mark['mark']) for mark in reports]
 counter = Counter(distributions)
@@ -85,3 +88,4 @@ pyplot.barh(number_of_marks,distributions_of_mark,
            color='blue',
            label='Distribution of marks')
 pyplot.show()
+
